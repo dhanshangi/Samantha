@@ -1,0 +1,194 @@
+/** Hash Configs **/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  
+    /** Font **/
+    --fontHeading1: ;
+    --fontHeading2: ;
+    --fontBody:'Red Hat Display', sans-serif;
+    --fontExtra: ;
+
+    --black: #060606;
+    --dark: ;
+    --white: ;
+    --color-primary: ;
+    --color-secondary: ;
+    --color-heading: ;
+    --color-paragraph: ;
+
+    /** Colors **/
+    --primaryColor:#bde800;
+    --secondaryColor:#d8ff56;
+    --accentColor: ;
+
+    --primaryColorLight: #e7e4e4;
+    --secondaryColorLight:#fff;
+    --accentColorLight:#ffffff52;
+
+    --primaryColorDark: ;
+    --secondaryColorDark: ;
+    --accentColorDark: ;
+
+    --fontColor:#4c4c4c;
+    --fontDark:#c7c7c7;
+    --fontWhite: ;
+    --fontNavColor: ;
+    
+    --customColor1: ;
+    --customColor2: ;
+    --customColor3: ;
+    
+    --headerLinkColor:var(--fontWhite) ;
+    --headerLinkHoverColor:var(--accentColor) ;
+    --headerLinkActiveColor:var(--accentColor) ;
+    --headerLinkVistedColor: var(--accentColorDark);
+
+    --bodyLinkColor:var(--fontDark) ;
+    --bodyLinkHoverColor: var(--accentColor);
+    --bodyLinkActiveColor:var(--accentColor) ;
+    --bodyLinkVistedColor:var(--accentColorDark) ;
+
+    --footerLinkColor:var(--fontNavColor) ;
+    --footerLinkHoverColor:var(--accentColor) ;
+    --footerLinkActiveColor:var(--accentColor) ;
+    --footerLinkVistedColor:var(--accentColorDark) ;
+    
+    
+    --listIcon:'\f00c';
+    --listIconFont:'FontAwesome';
+    --listIconColor:var(--accentColor);
+
+    
+    --lineHeight: 2.3rem;
+
+    
+    --heroSize:65px;
+    --heading1Size:50px;
+    --heading2Size:36px;
+    --heading3Size: ;
+    --body1Size:18px;
+    --body2Size: ;
+
+    --xs:1%;
+    --sm:2.5%;
+    --md:5%;
+    --lg:7.5%;
+    --xl:10%;
+
+    --px-xs:1%;
+    --px-sm:2.5%;
+    --px-md:5%;
+    --px-lg:7.5%;
+    --px-xl:10%;
+
+    
+}
+
+/*** 
+
+====================================================================
+	Layouts - START
+====================================================================
+
+***/
+
+
+
+/*** 
+
+====================================================================
+	Layouts - Ends
+====================================================================
+
+***/
+/*** 
+
+====================================================================
+	Text - START
+====================================================================
+
+***/
+body, .article {
+    font-family: var(--fontBody);
+    font-size: 1.8rem;
+    line-height: var(--lineHeight);
+    margin: auto;
+    color: var(--fontColor);
+  }
+
+h1, .h1 {
+    font-family: var(--fontHeading1);
+    color: var(--accentColor);
+    font-size:  var(--heroSize);
+  }
+  h2, .h2 {
+    font-family: var(--fontHeading2);
+    font-size: var(--heading1Size);
+    color: var(--fontDark);
+  }
+  h3, .h3 {
+    font-family: var(--fontHeading2);
+    font-size: var(--heading2Size);
+    color: var(--fontDark);
+  }
+  h4, .h4 {
+    font-family: var(--fontHeading2);
+    font-size: var(--heading3Size);
+    color: var(--fontDark);
+  }
+  h5, .h5 {
+    font-family: var(--fontHeading2);
+    font-size: var(--heading3Size);
+    color: var(--fontDark);
+  }
+
+  
+/** Responsive **/
+
+/* lg screen*/
+@media (max-width: 1012px) {
+}
+ 
+/* md screen*/
+@media (max-width: 768px) {
+
+    h1, .h1 {
+      font-size:  6.4rem;
+    }
+    h2, .h2 {
+      font-size: 3.4rem;
+    }
+}
+ 
+/* sm screen*/
+@media (max-width: 577px) {
+ /** DESIGN **/
+  h1, .h1 {
+    font-size:  4.7rem;
+  }
+  h2, .h2 {
+    font-size: 2.9rem;
+  }
+  h3, .h3 {
+    font-size: 1.8rem;
+  }
+  h4, .h4 {
+    font-size: 1.6rem;
+  }
+  h5, .h5 {
+    font-size: 1.6rem;
+  }
+}
+  /*** 
+  
+  ====================================================================
+      Headings & Text - END
+  ====================================================================
+  
+  ***/
+
+/** Hash Configs Ends **/
